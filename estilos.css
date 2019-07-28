@@ -512,4 +512,14 @@ footer p{
   justify-content:center;
   margin-top:10px;
 }
+  .media{
+      display:block;
+    }
+  .mediapequeña{
+    margin:auto;
+    font-size:1.4rem;
+    font-weight:500px;
+   
+  }
+
 }
