@@ -402,7 +402,7 @@ footer p{
   margin-top:var(--espacios);
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
   .nav2{
     color: #fff;
   }
@@ -444,9 +444,10 @@ footer p{
   :root{
     --margenes: 30px;
   }
+  footer{background:url(img/teclado.jpg);}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 576px){
   :root{
     --espacios-contenido: 25px;
   }
@@ -507,6 +508,7 @@ footer p{
   padding:5px;
   margin:5px;
 }
+footer{background:url(img/teclado.jpg);}
 .centrar-h2{
   display:flex;
   justify-content:center;
@@ -520,6 +522,6 @@ footer p{
     font-size:1.4rem;
     font-weight:500px;
   }
-  footer{background:url(img/teclado.jpg);}
+
 
 }
